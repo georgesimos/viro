@@ -1,8 +1,12 @@
 {
-  "name": "react-viro",
+  "name": "@simos/react-viro",
   "main": "index.js",
   "version": "2.17.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgesimos/viro.git"
+  },
   "scripts": {
     "start": "echo 'I dont think you meant to run npm start here.'",
     "test": "jest"
@@ -11,8 +15,8 @@
     "preset": "react-native"
   },
   "peerDependencies": {
-    "react": "16.8.3",
-    "react-native": "0.59.9"
+    "react": "^16.13.1",
+    "react-native": "^0.63.4"
   },
   "files": [
     "components",
@@ -26,6 +30,8 @@
     "LICENSE"
   ],
   "dependencies": {
-    "prop-types": "^15.5.10"
+    "create-react-class": "^15.7.0",
+    "prop-types": "^15.5.10",
+    "react": "^17.0.1"
   }
 }
