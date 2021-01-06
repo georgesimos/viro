@@ -1,5 +1,6 @@
 name: Viro Bridge CI Pipeline
-on: [push]
+on:
+  workflow_dispatch:
 jobs:
   bridge_build:
     runs-on: macos-latest
